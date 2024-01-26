@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(255, 245, 233);
+   
+}
+.header{
+    /* background-color: rgb(11, 11, 9); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* opacity:70%     */
+}
+img{   
+    width: 150px;   
+}
+a{
+    color: black;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.create{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+.start{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+input{
+    height: 30px;
+    
+}
+#email{
+    margin-top: 20px;
+}
+input::placeholder{
+    color: grey;
+    padding-left: 20px;
+    padding-bottom: 70px;
+}
+button{
+    height: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 2px; */
+
+}
+label{
+    padding-top: 7px;
+    padding-left: 10px;
+}
+.step{
+    padding-bottom: 5px;
+}
+.container{
+    display: flex;
+flex-direction: column;
+gap: 10px;
+align-items: center;
+}
+.nxt{
+        width: 320px;
+        /* height: 35px; */
+        text-align: center;
+        background-color: red;
+        text-decoration: none;
+        color: white;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-left: 30px;
+        
+}
